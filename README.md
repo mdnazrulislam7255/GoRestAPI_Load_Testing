@@ -1,5 +1,5 @@
 # Go Rest API Load Testing
-This project assesses the performance and reliability of the Go Rest API under different conditions. The test plan, designed with Apache JMeter, simulates various HTTP requests, including GET, POST, PUT, PATCH, and DELETE, aimed at key API endpoints.
+This project assesses the performance and reliability of the Go Rest API under different conditions. The test plan, designed with Apache JMeter, simulates various HTTP requests, including GET, POST, PUT,and PATCH aimed at key API endpoints.
 
 _**This test suite is designed to:**_
 - Assess the system's responsiveness by measuring metrics like response time and throughput.
