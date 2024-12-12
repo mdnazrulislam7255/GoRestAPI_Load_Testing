@@ -21,20 +21,19 @@ _**This test suite is designed to:**_
    - Step 2: Configure JMeter
      Open the GoRestAPI.jmx file in Apache JMeter.
      Update the HTTP Request Defaults element to set the API base URL and authentication details (if applicable).
-3. **_Import collection:_**
+3. **_Import jmx file:_**
    - Open Jmeter.
    - Click on the Import button.
    - Select the file from the repository.
 
 _**Usage**_ <br>
 
-_**Select Environment:**_ <br>
-      In Apache JMeter, select the appropriate environment from the top-right dropdown. <br>
+_**Select jmx file:**_ <br>
+      In Apache JMeter, select the appropriate jmx. <br>
 
-_**Run Collection:**_ <br>                         																				
-      Select the imported collection. <br>
+_**Run project:**_ <br>                         																				
+      Select the imported file. <br>
       Select any one of the listener . <br>
-      Select the desired environment. <br>
       Click Start Test to run the project.<br>
 _**View Results:**_ <br>
        Once the tests are complete, view the results in the listener like View Results Tree or Aggregate Report. <br>
@@ -54,7 +53,10 @@ _**View Results:**_ <br>
 - PATCH /public/v2/users//{id}: Modify specific fields of a user.
 
 # Base URL
-The base URL is: https://gorest.co.in
+The base URL is: https://gorest.co.in <br>
+**Note**: Generate your own token from this site: https://gorest.co.in/consumer/login  <br>
+1. At first login <br>
+2. Generate a token for using it. <br>
 
 ## _Create a New User_
 Protocol : _https_                                                                                                                                                                        
